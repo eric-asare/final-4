@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link href="game.css" rel="stylesheet">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Italiana&display=swap" rel="stylesheet">
+    </link>
+
+    <!-- title -->
+    <title> Game Page</title>
+</head>
+
+<body>
+
+
+    <!-- Title -->
+    <h1>CollabDraw</h1>
+
+
+    <header class="header">
+
+        <!-- Name Board -->
+        <div class="header__name-board">
+            <ul id="name-board">
+            </ul>
+        </div>
+    </header>
+
+
+    <section class="mode">
+        <!-- on hover, show: collab to draw the object described -->
+        <button class="mode__challenge button-join" id="challenge">Challenge</button>
+    </section>
+
+    <!-- instruction -->
+    <p> <span id="instruction"></span></p>
+    <!-- timer -->
+    <div class="game-memory-timer">
+        <p>
+            <h2 id="game-timer">00:00</h2>
+        </p>
+    </div>
+    <canvas id='blank' style='display:none'></canvas>
+    <!-- timer -->
+    <div class="turnsTime">
+        <p>
+            <h2 id="turns-timer">00:00</h2>
+        </p>
+    </div>
+
+
+    <p> <span id="user-name"></span></p>
+
+
+    <div class="game-header" id="game-header-msg"></div>
+
+    <!-- Erase and Draw Section -->
+    <section class="tool">
+        <button class="tool__erase button-8" id="eraser">Erase</button>
+        <button class="tool__draw button-8" id="crayon">Draw</button>
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

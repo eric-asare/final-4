@@ -1,0 +1,63 @@
+    body {
+        /* background-image: url('https://eric-asare.github.io/ConnectionsLab/week10/memoICE/design/brain.png'); */
+        color: rgb(18, 45, 218);
+        ;
+        font-family: 'Electrolize', sans-serif;
+    }
+    
+    #game-results {
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 1em;
+        border-radius: 20px;
+        text-align: center;
+        width: 50%;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        visibility: hidden;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    input,
+    select,
+    button {
+        padding: 1em;
+        font-size: medium;
+    }
+    
+    .button-join {
+        background-color: rgb(18, 45, 218);
+        ;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    
+    .button-1:hover,
+    .button-1:focus {
+        background-color: rgb(18, 45, 218);
+    }
